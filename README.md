@@ -28,11 +28,6 @@ This project is a React-based EMI (Equated Monthly Installment) calculator desig
 ![App Screenshot](./EMI-CALCULATOR.png)
 
 
-```
-
-![App Screenshot](./screenshot.png)
-
-````
 
 ---
 
