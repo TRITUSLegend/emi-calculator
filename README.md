@@ -79,19 +79,3 @@ emi-calculator/
 ├── package.json
 └── README.md
 ```
-
----
-
-## License
-
-This project is open-source and available for use under the MIT License.
-
-```
-
----
-
-Let me know if you want help:
-- Hosting this on GitHub Pages or Netlify
-- Adding a screenshot properly
-- Adding a deployment link to this README
-```
