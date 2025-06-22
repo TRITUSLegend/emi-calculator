@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+# EMI Calculator - Home Loan Estimator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a React-based EMI (Equated Monthly Installment) calculator designed to help users estimate their home loan EMI, visualize the principal and interest breakdown, and understand the total repayment amount.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Adjustable loan amount input (up to ₹30 Crore)
+- Adjustable annual interest rate (1% to 20%)
+- Flexible loan tenure (1 to 30 years)
+- Pie chart visualization of principal vs interest
+- Real-time EMI calculation on input change
+- Clean, simple, and intuitive user interface
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Built With
 
-### `npm test`
+- React JS (Functional Components and Hooks)
+- Chart.js with react-chartjs-2 for chart rendering
+- Plain CSS for styling
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Preview
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![App Screenshot](./EMI-CALCULATOR.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
 
-### `npm run eject`
+![App Screenshot](./screenshot.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+````
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Getting Started
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Prerequisites
 
-## Learn More
+Make sure you have Node.js and npm installed on your machine.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Installation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Clone the repository:
 
-### Code Splitting
+```bash
+git clone https://github.com/your-username/emi-calculator.git
+cd emi-calculator
+````
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+2. Install dependencies:
 
-### Analyzing the Bundle Size
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+3. Start the development server:
 
-### Making a Progressive Web App
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+The application will run on `http://localhost:3000` by default.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Folder Structure
 
-### Deployment
+```
+emi-calculator/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── SliderInput.js
+│   │   ├── ResultDisplay.js
+│   │   └── PieChart.js
+│   ├── App.js
+│   ├── App.css
+│   └── index.js
+├── .gitignore
+├── package.json
+└── README.md
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is open-source and available for use under the MIT License.
+
+```
+
+---
+
+Let me know if you want help:
+- Hosting this on GitHub Pages or Netlify
+- Adding a screenshot properly
+- Adding a deployment link to this README
+```
